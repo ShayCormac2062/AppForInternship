@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Тестовое задание</string>
+    <string name="area_name">Название области</string>
+    <string name="id_of_area">ID области:</string>
+    <string name="subregion_amount">Количество регионов:</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="loading">Загрузка…</string>
+    <string name="enter_name">Название области</string>
+    <string name="enter_parent_id">Область-родитель</string>
+    <string name="searching">Введите назвние области</string>
+    <string name="searching_area">Поиск области</string>
+    <string name="update_all_areas_notification">Все ваши изменения будут сброшены. Продолжить?</string>
+</resources>
