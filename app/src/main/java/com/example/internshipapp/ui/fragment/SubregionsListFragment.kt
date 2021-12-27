@@ -37,8 +37,7 @@ class SubregionsListFragment(private var area: Area) : Fragment() {
             }
             adapter = AreasAdapter(database.getAllSubregions(area.id) as ArrayList<Area>, database).apply {
                 context?.let {
-                    SwipeToDeleteCallbackImplDouble(area.subregions as ArrayList<Area>, it, binding, ((requireActivity() as MainActivity).areaDatabase
-                        .areaDao()))
+                    SwipeToDeleteCallbackImplDouble(database.getAllSubregions(area.id) as ArrayList<Area>, it, binding, database)
                 }?.let {
                     ItemTouchHelper(it).attachToRecyclerView(binding.rvSubregions)
                 }
